@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "EmployeeApi.Core.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "EmployeeApi.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EmployeeApi.Core.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeApi.Core.Abstractions.dll": {}
+        }
+      },
+      "EmployeeApi.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/EmployeeApi.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeApi.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EmployeeApi.Core.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeApi.Core.Abstractions/EmployeeApi.Core.Abstractions.csproj",
+      "msbuildProject": "../EmployeeApi.Core.Abstractions/EmployeeApi.Core.Abstractions.csproj"
+    },
+    "EmployeeApi.Models/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeApi.Models/EmployeeApi.Models.csproj",
+      "msbuildProject": "../EmployeeApi.Models/EmployeeApi.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "EmployeeApi.Core.Abstractions >= 1.0.0",
+      "EmployeeApi.Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\cebiy\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\cebiy\\OneDrive\\Desktop\\Employee Api\\EmployeeApi.Core\\EmployeeApi.Core.csproj",
+      "projectName": "EmployeeApi.Core",
+      "projectPath": "C:\\Users\\cebiy\\OneDrive\\Desktop\\Employee Api\\EmployeeApi.Core\\EmployeeApi.Core.csproj",
+      "packagesPath": "C:\\Users\\cebiy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cebiy\\OneDrive\\Desktop\\Employee Api\\EmployeeApi.Core\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\cebiy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\cebiy\\OneDrive\\Desktop\\Employee Api\\EmployeeApi.Core.Abstractions\\EmployeeApi.Core.Abstractions.csproj": {
+              "projectPath": "C:\\Users\\cebiy\\OneDrive\\Desktop\\Employee Api\\EmployeeApi.Core.Abstractions\\EmployeeApi.Core.Abstractions.csproj"
+            },
+            "C:\\Users\\cebiy\\OneDrive\\Desktop\\Employee Api\\EmployeeApi.Models\\EmployeeApi.Models.csproj": {
+              "projectPath": "C:\\Users\\cebiy\\OneDrive\\Desktop\\Employee Api\\EmployeeApi.Models\\EmployeeApi.Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.300-preview.23179.2\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
